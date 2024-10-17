@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: orange;
+        }
+        .color{
+        background-color: rgb(176, 82, 15);
+        }
+        th{
+        color: white;
+        }
+        .tr{
+        border: 10px groove black;
+        }
+        .table{
+        background-color: chocolate;
+        box-shadow: 1px 1px 10px 5px;
+        }
+        .button{
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        }
+        .button:hover{
+        background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+
+<form>
+<table class="table" align="center" border="2px">
+
+    <tr class="tr">           <!--ONE-->
+     <th class="color" colspan="2"><strong>REGISTRATION FORM</strong></th> 
+    </tr>
+
+    <tr>            <!--TWO-->
+    <th>Student Name :</th>
+    <th><input required type="text" name="Enter Name"></th>   
+    </tr>
+
+    <tr>             <!--THREE-->
+        <th>Father Name :</th>
+        <th><input required type="text"></th>
+    </tr>
+
+    <tr>            <!--FOUR-->
+        <th>Age :</th>
+        <th><input required type="text"></th>
+    </tr>
+
+    <tr>             <!--FIVE-->
+        <th>Date Of Birth:</th>
+        <th><input required type="date"></th>
+    </tr>
+
+    <tr>               <!--SIX-->
+        <th colspan="2">Gender:</th>
+    </tr>
+    <tr>
+        <th><input required type="radio" name="Gender">Male</th>
+        <th><input required type="radio" name="Gender">Female</th>
+    </tr>
+
+    <tr>               <!--SEVEN-->
+        <th>Email ID:</th>
+        <th><input required type="email"></th>
+    </tr>
+
+    <tr>                <!--EIGHT-->
+        <th>Mobile No.</th>
+        <th><input required type="number"></th>
+    </tr>
+
+    <tr>                 <!--nine-->
+        <th>Area:</th>
+        <th><input required type="text"></th>
+    </tr>
+    
+    <tr>                  <!--ten-->
+        <th>Adress:</th>
+       <th><textarea required name="Adress"></textarea></th>
+    </tr>
+
+    <tr class="color">    <!--Eleven-->
+        <th colspan="2"><input class="button" type="submit"></th>
+    </tr>
+
+</table>   
+</form>
+
+</body>
+</html>
